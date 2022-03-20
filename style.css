@@ -1,0 +1,45 @@
+body {
+  background-image: url(/foto/f1.webp);
+  background-size: cover;
+  background-position: 0px -200px;
+  /* background: #3d617f; */
+}
+
+.container {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  /* background: transparent; */
+}
+
+.button {
+  width: 80px;
+  height: 70px;
+  font-size: 30px;
+  /* margin: 2; */
+  /* border: none; */
+  color: white;
+  /* cursor: pointer; */
+  background: #333;
+}
+.button:hover {
+  /* width: 50; */
+  /* height: 50; */
+  /* font-size: 30px; */
+  /* border: none; */
+  /* color: white; */
+  /* cursor: pointer; */
+  background: #008087;
+}
+
+.hasil {
+  width: 97%;
+  height: 50px;
+  /* border: none; */
+  /* outline: none; */
+  font-size: 20px;
+  text-align: center;
+  background: #eeefff;
+  /* opacity: 0.7; */
+}
