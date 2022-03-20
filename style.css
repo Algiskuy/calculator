@@ -26,11 +26,15 @@ body {
 .button:hover {
   /* width: 50; */
   /* height: 50; */
-  /* font-size: 30px; */
+  font-size: 35px;
   /* border: none; */
   /* color: white; */
   /* cursor: pointer; */
   background: #008087;
+  background-image: url(/foto/f5.webp);
+  background-position: center;
+  /* color: black; */
+  text-shadow: 3px 3px 4px blue;
 }
 
 .hasil {
